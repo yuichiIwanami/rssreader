@@ -1,0 +1,59 @@
+body {
+	padding: 70px 0 0 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	padding: 0 0 0 15px;
+	/* background-color: #4E9ABE; */
+}
+
+nav {
+	width: 200px;
+	position: fixed;
+	top: 70px;
+	margin: 0 0 0 10px;
+}
+
+section {
+	top: 70px;
+	left: 200px;
+	margin: 0 0 0 200px;
+	height: 100%;
+	overflow auto;
+}
+
+div.content {
+	background-color: #f0f0f0;
+	margin: 10px 0;
+	padding: 15px;
+	fort-size: 10px;
+}
+
+ul.rsslist {
+	left: 0;
+	list-style: none;
+	list-style-position: inside;
+	width: 180px;
+}
+ul.content {
+	list-style: none;
+	width: 600px;
+}
+
+p.itemTitle {
+	margin-bottom: 1px;
+}
+
+p.mainTitle {
+	font-size: 12px;
+	margin: 1px;
+	padding: 0px;
+}
+p.rsslist {
+	width: 160px;
+}

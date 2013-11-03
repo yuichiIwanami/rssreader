@@ -1,0 +1,96 @@
+@(blogs: List[logics.RssItems.blog], entries: List[logics.RssItems.entry])
+
+@main("RSS Reader") {
+<h2>RSS Reader</h2>
+} {
+	<h3 style="color: 7c7c7c;">Blog List</h3>
+	<!-- <ul class="rsslist"> -->
+	<a href="/display/all">all</a><br><br>
+	@for(blog <- blogs) {
+		<a href="/display/@blog.encUrl">@blog.mainTitle</a><br>
+	}
+	<!-- </ul> -->
+} {
+<ul  class="content">
+	@for(i <- 0 to entries.size - 1) {
+	<li>
+		<p class="itemTitle">
+			<a href=""  onclick="showPlagin(@i);return false;"
+				style="text-decoration: none;">+</a> 
+			<a href=@entries(i).link  target="blank">@entries(i).title</a>
+		<!-- 	<a href="https://twitter.com/share" class="twitter-share-button"
+				data-url=@entries(i).link data-lang="en"></a> -->
+		</p>
+		<p class="mainTitle">
+			<a href="/display/@entries(i).encUrl">&nbsp;@entries(i).mainTitle</a>
+		</p>
+		<p class="mainTitle">@entries(i).date</p>
+		<div id="PlagClose@i" style="display: none">
+			<div class="content">@Html(entries(i).content)</div>
+		</div>
+	</li> }
+</ul>
+}
+
+<script type="text/javascript">
+<!--
+/*  	!function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (!d.getElementById(id)) {
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+	}(document, "script", "twitter-wjs");
+	
+	 _delete_dom('widget'); 
+	!function _delete_dom(class_name ){
+	    var dom_obj=document.getElementById(class_name);
+	    var dom_obj_parent=dom_obj.parentNode;
+	    dom_obj_parent.removeChild(dom_obj);
+	}('widget');	
+	
+	var twitterObj = new Array();
+	var twitterObjURI = new Array();
+	var tagObj = document.getElementsByTagName("script");
+	for (i=0;i<tagObj.length;i++){
+		if(tagObj[i].src.indexOf('twitter.com') > -1){
+			twitterObj.push(tagObj[i]);
+			twitterObjURI.push(tagObj[i].src);
+			tagObj[i].src = "blank.js";
+		}
+	}
+	function addEventSet(elm,listener,fn){
+		try{
+			elm.addEventListener(listener,fn,false);
+		}
+		catch(e){
+			elm.attachEvent("on"+listener,fn);
+		}
+	}
+	function IllBeBackTwitter(){
+		for(i=0;i<twitterObj.length;i++){
+			twitterObj[i].src = twitterObjURI[i];
+		}
+	}
+	addEventSet(window,"load",function(){IllBeBackTwitter();});	  */
+	
+
+	function showPlagin(idno) {
+		 pc = ('PlagClose' + (idno));
+		 /*po = ('PlagOpen' + (idno)); */
+		if (document.getElementById(pc).style.display == "none") {
+			document.getElementById(pc).style.display = "block";
+			document.getElementById(pc).value = "+"
+			document.getElementById(pc).title = "記事を折りたたむ"
+		/* 	document.getElementById(po).style.display = "none" */;
+		} else {
+			document.getElementById(pc).style.display = "none";
+			document.getElementById(pc).value = "-"
+			document.getElementById(pc).title = "記事を表示する"	
+	/* 		document.getElementById(po).style.display = "block"; */
+		}
+	}
+//-->
+</script>

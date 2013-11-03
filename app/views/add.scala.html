@@ -1,0 +1,17 @@
+@(addForm: Form[String])
+@import helper._
+
+@main("Add RSS") {
+	<h2>Add a new RSS</h2>
+	} {
+	
+	} {
+	@form(action = routes.AddUrl.add) {
+		@inputText(
+			field = addForm("url"),
+			args = '_label -> "",
+			'size -> 70
+		)
+		<input type="submit" id ="submit" value="submit"/>
+	}	
+}

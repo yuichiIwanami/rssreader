@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GadgetTabML version="1.0" xmlns:iGoogle="http://www.google.com/ig" xmlns="http://schemas.google.com/GadgetTabML/2008">
+  <SkinPreferences zipcode="東京, 日本" country="jp" language="en" />
+  <Tab title="IT/Software" skinUrl="http://ighosting.googlecode.com/svn/trunk/xml/travel_3dcities.xml">
+    <Layout iGoogle:spec="THREE_COL_LAYOUT_1" />
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://engineer.typemag.jp/feed" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://yosuke-furukawa.hatenablog.com/feed" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/amachang/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/Nagise/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://bhorowitz.com/feed/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://picup.omocoro.jp/?mode=atom" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/takeda25/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://gafter.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.feedburner.jp/OnOffAndBeyond" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/nokuno/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://j.ktamura.com/feed" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feedproxy.google.com/TechCrunch" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.hada.org/naoki/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.feedburner.com/moongift" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://magica.hatenablog.com/feed" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.computerworld.com/computerworld/s/feed/topic/11" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.feedburner.com/SDTimesBlog" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/nishiohirokazu/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.livedoor.jp/dankogai/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/higayasuo/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://feeds.japan.zdnet.com/rss/zdnet/all.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://slashdot.jp/slashdotjp.rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://internet.watch.impress.co.jp/cda/rss/internet.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/shi3z/rss" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://okajima.air-nifty.com/b/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://tirania.org/blog/miguel.rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/yuum3/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://raibledesigns.com/rd/feed/comments/atom" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/tagomoris/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://techwave.jp/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.honeyee.com/tinoko/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/kwatch/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://rssblog.ameba.jp/keisukeo/rss20.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.geekpage.jp/rss.php" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://kohsuke.org/feed/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.joelonsoftware.com/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://jp.techcrunch.com/feed/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://chibicode.tumblr.com/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://el.jibun.atmarkit.co.jp/rails/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://radiumsoftware.tumblr.com/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://satoshi.blogs.com/life/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.cotton-tree.com/garyu/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://sierblog.com/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://rikeiryugaku.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://k-tai.impress.co.jp/cda/rss/ktai.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://zapanet.info/blog/xml-rss2.php" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/gothedistance/rss" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.livedoor.jp/amd646464/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/secondlife/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://developer.cybozu.co.jp/takesako/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.milkstand.net/fsgarage/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feed.japan.cnet.com/rss/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/takoratta/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.mwsoft.jp/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://keisukeo.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/ryoasai/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://fallabs.com/mikio/life/promenade.cgi?format=atom&amp;act=timeline&amp;order=cdate" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/Sikushima/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/masanobuimai/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://californialife.blog42.fc2.com/?xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://matsuhiro.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/michikaifu/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.developer.com/icom_includes/feeds/developer/dev-25.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/t_yano/rss2" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/babydaemons/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.cyberarchitect.net/blog/feed" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://itpro.nikkeibp.co.jp/rss/ITpro.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.rubyist.net/~matz/comments.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://best-practice-software-engineering.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/secseek/rss" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab title="Blog" skinUrl="http://ighosting.googlecode.com/svn/trunk/xml/travel_3dcities.xml">
+    <Layout iGoogle:spec="THREE_COL_LAYOUT_1" />
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="https://blog.ushinomiya.co.jp/blog/rss.php?category_id=3" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://diamond.jp/list/rss?cc=s-kinyuutaidan" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://pressa.jugem.jp/?mode=rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://jyoshige.livedoor.biz/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://hongokucho.exblog.jp/index.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.itmedia.co.jp/rss/1.0/makoto.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.j-cast.com/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://ohtake.cocolog-nifty.com/ohtake/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.j-cast.com/kaisha/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://diamond.jp/list/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.mynewsjapan.com/rss/blog_2_0.rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/himaginary/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://itpro.nikkeibp.co.jp/rss/ITpro.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://allaboutedwardhugh.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://economistsview.typepad.com/economistsview/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://pressa.jugem.jp/?mode=rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.ritholtz.com/blog/feed/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogs.yahoo.co.jp/kqsmr859/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/TomoMachi/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://business.nikkeibp.co.jp/rss/money.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://policywatch.jp/xml/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://kirik.tea-nifty.com/diary/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://diamond.jp/feed.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.calculatedriskblog.com/feeds/posts/default" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://ikedanobuo.livedoor.biz/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.knak.jp/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/Chikirin/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://jbpress.ismedia.jp/rss/all.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/abz2010/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.dandoweb.com/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://markethack.net/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://ningyocho.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.livedoor.jp/okane_koneta/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogs.chicagobooth.edu/dir-app/acx/ActiveContent.aspx?type=blog&amp;webtag=faultlines&amp;fmt=rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://ohnishi.livedoor.biz/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.goo.ne.jp/yamahafx/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rssblog.ameba.jp/takapon-jp/rss20.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://gregmankiw.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/JPTechnologyNews" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogs.yahoo.co.jp/iwamotoseminar/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.goo.ne.jp/dancing-ufo/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://diamond.jp/list/rss?cc=s-stiglitz" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://business.nikkeibp.co.jp/rss/manage.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogos.livedoor.com/rss/blogos/summary.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://krugman.blogs.nytimes.com/rss2.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.jimbo.tv/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://freakonomics.blogs.nytimes.com/feed/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.marginalrevolution.com/marginalrevolution/index.rdf" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="REMOTE">
+        <ModulePrefs height="518" url="http://igmodel.googlecode.com/svn/trunk/modules/mod_photo_on_ig_27.xml"
+        zipped="false" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://kikuchi-blogger.blogspot.com/feeds/posts/default" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://agora-web.jp/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.investors-tv.jp/samiblog/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogs.yahoo.co.jp/takenaka1221/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.livedoor.jp/sobata2005/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://guccipost.jp/cgi-bin/WebObjects/12336a3d498.woa/wa/read/123bbef2474/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/mkusunok/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.longtail.com/the_long_tail/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://uskeizai.com/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.mynewsjapan.com/rss/latest_2_0.rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://kitanotabibito.blog.ocn.ne.jp/kinyuu/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.becker-posner-blog.com/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://robertreich.org/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/founder/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.taro.org/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.tez.com/blog/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.goo.ne.jp/ohmaelive/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blog.livedoor.jp/kazu_fujisawa/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://blogs.wsj.com/economics/feed/" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab title="ニュース" skinUrl="skins/classic.xml">
+    <Layout iGoogle:spec="TWO_COL_LAYOUT_1" />
+    <Section>
+      <Module type="REMOTE">
+        <ModulePrefs height="334" url="http://www.google.com/uds/gadgets/time/timets.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://jp.reuters.com/rssFeed/topNews?irpc=69" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/JPWorldNews" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://rss.msnbc.msn.com/id/3032071/device/rss/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds2.feedburner.com/wsj/xml/rss/3_7014.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.itmedia.co.jp/rss/1.0/plusd.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://www.microsite.reuters.com/rss/businessNews" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.reuters.com/rssFeed/worldNews?irpc=69" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/business/rss091.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://japan.internet.com/rss/rdf/index.rdf" />
+      </Module>
+      <Module type="NEWS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <UserPref name="section" value="WORLD" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://news.goo.ne.jp/news/rss/topics/chumoku/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/scienceNews" />
+      </Module>
+      <Module type="NEWS" xmlns="http://www.google.com/ig">
+        <UserPref name="section" value="TOP_STORIES" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://www.cnn.com/partners/google/cnn_topstories.rss" />
+      </Module>
+      <Module type="NEWS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <UserPref name="section" value="TECHNOLOGY" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://dailynews.yahoo.co.jp/fc/science/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://nikkeibp.jp/jp/it/index.rdf" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/JPMarketNews" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://today.reuters.co.jp/rss/businessNews/" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/topNews?irpc=69" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://news.livedoor.com/topics/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://rss.news.yahoo.com/rss/business" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://dailynews.yahoo.co.jp/fc/computer/rss.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://www.businessweek.com/rss/bwdaily.rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://rss.news.yahoo.com/rss/topstories" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.time.com/web/time/rss/top/index.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://feeds.feedburner.jp/cnet/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.time.com/web/time/rss/business/index.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://dailynews.yahoo.co.jp/fc/rss.xml" />
+      </Module>
+      <Module type="NEWS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <UserPref name="section" value="BUSINESS" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://www.cnn.com/partners/google/money_topstories.rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://news.ft.com/rss/home/uk" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="5" />
+        <ModulePrefs xmlUrl="http://export2.nikkei.co.jp/googlepersonal/gp.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www3.asahi.com/rss/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://nikkeibp.weblogs.jp/topics/index.rdf" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab title="Economist Readers" skinUrl="skins/classic.xml">
+    <Layout iGoogle:spec="TWO_COL_LAYOUT_1" />
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/bookworm/rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://stjofonekorea.blog6.fc2.com/?xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/pho/rss" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://debate.aprb.jp/?mode=rss" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://lat37n.typepad.com/lat37n/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://d.hatena.ne.jp/equilibrista/rss" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab title="投資" skinUrl="skins/classic.xml">
+    <Layout iGoogle:spec="THREE_COL_LAYOUT_1" />
+    <Section>
+      <Module type="REMOTE">
+        <ModulePrefs url="http://worris.sakura.ne.jp/worris/rate/rate.xml" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="REMOTE">
+        <ModulePrefs url="http://www.fxtechnical.net/fortune/kakugen.xml" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="REMOTE">
+        <ModulePrefs height="120" url="http://worris.sakura.ne.jp/worris/stock/stock.xml" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab isMobile="true">
+    <Layout iGoogle:spec="THREE_COL_LAYOUT_1" />
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/topNews?irpc=69" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://jp.reuters.com/rssFeed/topNews?irpc=69" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/JPWorldNews" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://feeds.reuters.com/reuters/JPMarketNews" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://today.reuters.co.jp/rss/businessNews/" />
+      </Module>
+      <Module type="NEWS" xmlns="http://www.google.com/ig">
+        <UserPref name="section" value="WORLD" />
+      </Module>
+    </Section>
+  </Tab>
+  <Tab title="ニュース2" skinUrl="skins/classic.xml">
+    <Layout iGoogle:spec="THREE_COL_LAYOUT_1" />
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.teamrenzan.com/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://wallstny.exblog.jp/index.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.ontheroad.jp/atom.xml" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.goo.ne.jp/sdfa2000/index.rdf" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://blog.goo.ne.jp/yamazaki_hajime/index.rdf" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://japan.zdnet.com/rss/news/index.rdf" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://b.hatena.ne.jp/entrylist?mode=rss" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://allabout.co.jp/rss/ranking/index.rdf" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://movie.goo.ne.jp/news/index.rdf" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://itpro.nikkeibp.co.jp/rss/ITpro.rdf" zipped="true" />
+      </Module>
+    </Section>
+    <Section>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.yukan-fuji.com/index.rdf" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <ModulePrefs xmlUrl="http://www.2nn.jp/rss/index.rdf" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://headline.2ch.net/bbynews/news.rss" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://bulknews.net/rss/rdf.cgi?ZakZak" zipped="true" />
+      </Module>
+      <Module type="RSS" xmlns="http://www.google.com/ig">
+        <UserPref name="numItems" value="3" />
+        <ModulePrefs xmlUrl="http://rss.rssad.jp/rss/itm/rss.xml" zipped="true" />
+      </Module>
+    </Section>
+  </Tab>
+</GadgetTabML>
